@@ -3,9 +3,14 @@
   "version": "1.0.0",
   "description": "Node - MYSQL application with store functionalities",
   "main": "thestore.js",
-  "dependencies": {},
+  "dependencies": {
+    "faker": "^4.1.0",
+    "inquirer": "^6.2.2",
+    "mysql": "^2.16.0"
+  },
   "devDependencies": {},
   "scripts": {
+    "seed": "node seedProducts.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "German Arcila",
