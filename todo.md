@@ -7,14 +7,14 @@
 - [ ] BONUS Track product sales across Store departments 
 
 Requirements
-- [X] MSQL Database called thestore
-- [X] table products
-  - [X] item_id
-  - [X] product_name
-  - [X] department_name
-  - [X] price
-  - [X] stock_quantity
-- [ ] Populate DB with different products
+- [x] MSQL Database called thestore
+- [x] table products
+  - [x] item_id
+  - [x] product_name
+  - [x] department_name
+  - [x] price
+  - [x] stock_quantity
+- [x] Populate DB with different products
 - [ ] Node Application thecustomer.js
   - [ ] At start shows all products available (id,name,price)
   - [ ] Prompt user
@@ -30,13 +30,13 @@ TODOs
 - [ ] Create files
   - [x] .gitignore
   - [x] schema.sql
-    - [X] create db thestore
-    - [X] create table products
-  - [X] seedProducts.js
-    - [X] include script in package.json to seed the db
+    - [x] create db thestore
+    - [x] create table products
+  - [x] seedProducts.js
+    - [x] include script in package.json to seed the db
   - [ ] thestore.js
   - [ ] readme.md
-- [ ] Commit to gitHub
+- [x] Commit to gitHub
 - [x] Install packages
   - [x] mysql
   - [x] inquirer

@@ -1,5 +1,6 @@
-const faker = require('faker');
-const mysql = require('mysql');
+require(`dotenv`).config();
+const faker = require(`faker`);
+const mySqlConnection = require(`./connection`);
 
 function createFakeProduct() {
 	let product = {
@@ -12,15 +13,10 @@ function createFakeProduct() {
 	return product;
 }
 
-const connection = mysql.createConnection({
-	host: `localhost`,
-	user: `root`,
-	password: `bianca2011`,
-	database: `thestore`,
-});
+const connection = mySqlConnection.connection();
 
 function insertProducts() {
-	for (let i = 0; i < 490; i++) {
+	for (let i = 0; i < 20; i++) {
 		let fakeProduct = createFakeProduct();
 		connection.query(`INSERT INTO products SET ?`, fakeProduct, (err, res) => {
 			if (err) throw err;
