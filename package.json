@@ -2,15 +2,17 @@
   "name": "the-store",
   "version": "1.0.0",
   "description": "Node - MYSQL application with store functionalities",
-  "main": "thestore.js",
+  "main": "thecustomer.js",
   "dependencies": {
+    "dotenv": "^6.2.0",
     "faker": "^4.1.0",
     "inquirer": "^6.2.2",
-    "mysql": "^2.16.0"
+    "mysql2": "^1.6.5"
   },
   "devDependencies": {},
   "scripts": {
     "seed": "node seedProducts.js",
+    "start": "node thecustomer.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "German Arcila",
