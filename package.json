@@ -12,6 +12,7 @@
   "devDependencies": {},
   "scripts": {
     "seed": "node seedProducts.js",
+    "start": "node thecustomer.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "German Arcila",
