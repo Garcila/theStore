@@ -34,72 +34,12 @@ Once all is ready, go to your terminal 💻 and type the following friendly comm
 node npm start
 ```
 
-### List of available commands
-
-At the moment these are the available commands for you to ask LIRI 🦁
-
-**1 🎥 movie-this** -  It finds a movie and gives you back the following information:
-
-- Title
-- Year it was released
-- Rating
-- Rotten Tomatoes review (in %)
-- Country
-- Language
-- Plot
-- Actors
-
-```
-node liri.js movie-this Tron
-```
-
-**2 🎹 concert-this** -  It finds a concert and gives you back the following information:
-
-- Band
-- Venue
-- City
-- Country
-- Date
-
-```
-node liri.js concert-this Bokassa
-```
-
-**3 🎵 spotify-this-song** - It finds a song or artist and gives you back the following information:
-
-- Artist
-- Song
-- OnSpotify (link to the song)
-- Album
-- Year released
-
-```
-node liri.js spotify-this-song Bokassa
-```
-
-**4 ❔ do-what-it-says** - I'll let you figure out this one on your own.  It's harmless
-
-```
-node liri.js do-what-it-says
-```
-
-## Example
-
-##### Request
-```
-node liri.js concert-this bokassa
-```
-##### Response
-
-![Image of a response](./assets/response.png)
-
 ## Built With
 
 * [Node](https://nodejs.org/en/) - JavaScript runtime built on Chrome's V8 JavaScript engine.
 * [Axios](https://www.npmjs.com/package/axios) - Promise based HTTP client for the browser and node.js
 * [Moment](https://momentjs.com/) - Parse, validate, manipulate, and display dates and times in JavaScript.
 * [dotenv](https://www.npmjs.com/package/dotenv) - Easily work with environment variables
-* [node-spotify-api](https://www.npmjs.com/package/node-spotify-api) - A simple library for the Spotify REST API
 
 ## Author
 
